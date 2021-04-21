@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+      {% if name %}
+        <h1 style="background-color: orange">{{ name.Name }}</h1>
+        <h1 style="background-color: orange">{{ name.URL }}</h1>
+        <h1 style="background-color: orange">{{ name.Phone_Number }}</h1>
+    {% else %}
+        <h1>Name Does not exist in database !</h1>
+    {% endif %}
+</body>
+</html>
